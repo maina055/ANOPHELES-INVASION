@@ -1,0 +1,7 @@
+"model","scenario","region","dose1","dose2","dose3","dose4","all_doses"
+"adult_lifetime_low","C","both",0,0,0,0,0
+"adult_lifetime_low","C","rural",0,0,0,0,0
+"adult_lifetime_low","C","urban",0,0,0,0,0
+"adult_lifetime_low","D","both",40931.2825353451,37143.367367567,31981.9794756667,25304.6838695408,135361.313248119
+"adult_lifetime_low","D","rural",20488.3870922986,18592.9031750443,16010.1609731384,12670.3092408417,67761.7604813231
+"adult_lifetime_low","D","urban",20442.8954430465,18550.4641925227,15971.8185025283,12634.374628699,67599.5527667964

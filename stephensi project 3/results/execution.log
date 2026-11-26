@@ -1,0 +1,127 @@
+Reference calibration and intervention scenarios
+Calibrated reference; maximum prevalence error = 6.7e-14
+Completed reference
+Structural sensitivity analyses
+starting worker pid=16 on localhost:11372 at 12:36:40.311
+starting worker pid=22 on localhost:11372 at 12:36:40.314
+starting worker pid=15 on localhost:11372 at 12:36:40.324
+starting worker pid=21 on localhost:11372 at 12:36:40.324
+starting worker pid=17 on localhost:11372 at 12:36:40.329
+starting worker pid=19 on localhost:11372 at 12:36:40.332
+starting worker pid=18 on localhost:11372 at 12:36:40.332
+starting worker pid=20 on localhost:11372 at 12:36:40.342
+Completed early_low
+Completed early_high
+Calibrated older_clinical_low; maximum prevalence error = 1.67e-16
+Calibrated diagnostic_80; maximum prevalence error = 1.39e-16
+Calibrated older_mortality_low; maximum prevalence error = 6.68e-14
+Calibrated lake; maximum prevalence error = 6.7e-14
+Calibrated no_infection_immunity; maximum prevalence error = 4.68e-14
+Calibrated older_mortality_high; maximum prevalence error = 6.71e-14
+Completed older_clinical_low
+Completed diagnostic_80
+Completed older_mortality_low
+Completed older_mortality_high
+Completed no_infection_immunity
+Completed lake
+Calibrated init28; maximum prevalence error = 2.07e-15
+Calibrated diagnostic_60; maximum prevalence error = 1.4e-14
+Calibrated care_half; maximum prevalence error = 1.21e-14
+Calibrated older_clinical_high; maximum prevalence error = 1.39e-16
+Calibrated care_full; maximum prevalence error = 6.45e-16
+Calibrated delay_four; maximum prevalence error = 4.96e-14
+Calibrated partial_immunity; maximum prevalence error = 6.74e-14
+Completed init28
+Completed diagnostic_60
+Completed care_half
+Completed older_clinical_high
+Completed care_full
+Completed delay_four
+Completed partial_immunity
+Calibrated txinfect_zero; maximum prevalence error = 8.38e-14
+Calibrated txinfect_full; maximum prevalence error = 4.13e-14
+Calibrated admission_half; maximum prevalence error = 4.49e-14
+Calibrated init56; maximum prevalence error = 1.43e-15
+Calibrated delay_zero; maximum prevalence error = 9.01e-14
+Completed txinfect_zero
+Completed admission_half
+Completed txinfect_full
+Completed init56
+Completed delay_zero
+Calibrated combined; maximum prevalence error = 3.49e-16
+Completed combined
+Additional sensitivity analyses
+starting worker pid=138 on localhost:11372 at 12:44:04.720
+starting worker pid=136 on localhost:11372 at 12:44:04.733
+starting worker pid=142 on localhost:11372 at 12:44:04.735
+starting worker pid=140 on localhost:11372 at 12:44:04.748
+starting worker pid=143 on localhost:11372 at 12:44:04.751
+starting worker pid=137 on localhost:11372 at 12:44:04.759
+starting worker pid=141 on localhost:11372 at 12:44:04.765
+starting worker pid=139 on localhost:11372 at 12:44:04.769
+Completed waning_slow
+Completed protection_high
+Completed protection_low
+Completed coverage_observed
+Completed waning_fast
+Completed horizon5
+Completed horizon20
+Calibrated fatality_low; maximum prevalence error = 6.68e-14
+Calibrated older_severity_low; maximum prevalence error = 5.72e-14
+Calibrated severity_low; maximum prevalence error = 5.57e-14
+Calibrated fatality_high; maximum prevalence error = 6.73e-14
+Calibrated severity_high; maximum prevalence error = 8.05e-14
+Completed treatment_cost_low
+Completed fatality_low
+Completed older_severity_low
+Completed severity_low
+Completed fatality_high
+Completed severity_high
+Calibrated zero_natural_growth; maximum prevalence error = 6.59e-15
+Completed treatment_cost_high
+Calibrated equal_biting; maximum prevalence error = 9.51e-16
+Completed adult_lifetime_low
+Completed zero_natural_growth
+Completed equal_biting
+Completed adult_lifetime_high
+Calibrated older_severity_high; maximum prevalence error = 7.87e-14
+Completed older_severity_high
+Invader-density curve
+starting worker pid=258 on localhost:11372 at 12:46:44.484
+starting worker pid=259 on localhost:11372 at 12:46:44.486
+starting worker pid=261 on localhost:11372 at 12:46:44.491
+starting worker pid=260 on localhost:11372 at 12:46:44.503
+starting worker pid=264 on localhost:11372 at 12:46:44.512
+starting worker pid=257 on localhost:11372 at 12:46:44.514
+starting worker pid=262 on localhost:11372 at 12:46:44.518
+starting worker pid=263 on localhost:11372 at 12:46:44.521
+Prevalence matching, lake bounds and transported benchmark
+Calibrated lake_lower; maximum prevalence error = 6.7e-14
+Completed lake_lower
+Calibrated lake_upper; maximum prevalence error = 6.7e-14
+Completed lake_upper
+Calibrated species_under5; maximum prevalence error = 6.49e-14
+Completed species_under5
+starting worker pid=380 on localhost:11372 at 12:54:06.467
+starting worker pid=382 on localhost:11372 at 12:54:06.473
+starting worker pid=384 on localhost:11372 at 12:54:06.486
+starting worker pid=378 on localhost:11372 at 12:54:06.492
+starting worker pid=383 on localhost:11372 at 12:54:06.498
+starting worker pid=385 on localhost:11372 at 12:54:06.503
+starting worker pid=381 on localhost:11372 at 12:54:06.506
+starting worker pid=379 on localhost:11372 at 12:54:06.506
+Global sensitivity analysis: 128 design points and 500 bootstrap resamples
+starting worker pid=500 on localhost:11372 at 12:54:22.011
+starting worker pid=505 on localhost:11372 at 12:54:22.018
+starting worker pid=503 on localhost:11372 at 12:54:22.022
+starting worker pid=506 on localhost:11372 at 12:54:22.027
+starting worker pid=504 on localhost:11372 at 12:54:22.028
+starting worker pid=501 on localhost:11372 at 12:54:22.039
+starting worker pid=502 on localhost:11372 at 12:54:22.055
+starting worker pid=499 on localhost:11372 at 12:54:22.057
+Numerical verification
+Passed 78 numerical checks
+Passed 22 output-integrity checks
+Passed 99 output comparisons with the manuscript calculations
+Passed 264 manuscript reporting-precision comparisons
+Analysis completed: /workspace/scratch/dddfa02e7120/project3_work/stephensi project 3/results

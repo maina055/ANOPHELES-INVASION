@@ -1,0 +1,7 @@
+"row_id","establishment","vaccination","invader_control"
+"A","No","No","No"
+"B","No","Yes","No"
+"C","Urban","No","No"
+"D","Urban","Yes","No"
+"E","Urban","No","Yes"
+"F","Urban","Yes","Yes"

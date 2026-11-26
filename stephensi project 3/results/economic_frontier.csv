@@ -1,0 +1,5 @@
+"scenario","benefit","incremental_cost","status","sequential_icer"
+"C",0,0,"frontier",
+"D",232.589437066201,1048307.66929097,"extendedly_dominated",
+"E",4019.9225109325,1081961.99747186,"frontier",269.149963594915
+"F",4282.252949607,2128992.62575311,"frontier",3991.26625782228

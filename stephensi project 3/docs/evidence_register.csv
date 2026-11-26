@@ -1,0 +1,12 @@
+item,value,source,interpretation
+Care seeking,0.653 rural; 0.603 urban; 0.567 lake,KMIS2020 Table4.1 https://dhsprogram.com/pubs/pdf/MIS36/MIS36.pdf,Fever care seeking among under-fives; malaria-effective-care and older-age transfer are assumptions
+Lake target,10.5%; interval7.8-13.2%,KMIS2020 TableB.6,Ages6-59 months; 18.9% refers to ages6-179 months
+Species fractions,.959 rural; .933 urban; .955 lake,KMIS2020 Table4.9,P.falciparum-inclusive broader-age fractions; transferred to under-five targets
+Species alternative,.935 rural; .926 urban proxy,KMIS2020 TableD.3 and Table4.9,Rural73+1+19.5=93.5%; urban age-specific suppressed; pooled under-five72.1+.9+19.6=92.6% used only as proxy
+Treatment duration/infectiousness,5 days; .0219/.068,https://doi.org/10.7554/eLife.25008 Table2,"Transferred model parameters, not measured Kenyan treatment-specific transmission; no prophylaxis or gametocyte tail"
+Treatment delay,2 days; alternatives0/4,Analyst assumption,Not estimated from the KMIS timely-care proportion
+Early doses,.1/.2 or .2/.4,https://doi.org/10.1016/S1473-3099(24)00179-8,Source documents uncertainty/absence of discernible prethird-dose molecular effect; numerical values and waning shape are analyst-selected
+Microscopy sensitivity,1; alternatives .8/.6,https://doi.org/10.1186/s12936-022-04351-y,Paper supports imperfect detection; scenario sensitivity values are not direct estimates for KMIS under-fives
+Vaccine unit cost,9.01 first3;9.71 dose4; acquisition5 included,https://doi.org/10.1016/j.vaccine.2023.01.043 Table4,"Alternative2021 coverage scenario, historical2020 economic dollars; not Table3 pilot costs or current quotation"
+Provider costs,"2.77/20.86 in2009, inflated",https://doi.org/10.1186/1475-2875-12-307,"Severe cost is selected phenotype proxy, not a weighted comprehensive inpatient cost"
+Djibouti comparison,30-fold transported benchmark,https://doi.org/10.1186/s12916-022-02324-1,Not matched by density-only test; no Kenyan empirical calibration or claimed replication

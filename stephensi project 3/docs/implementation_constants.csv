@@ -1,0 +1,24 @@
+parameter,value,unit,interpretation
+days_per_year,365.25,days,Time conversion
+days_per_month,30.4375,days,365.25/12
+reference_maximum_step,1,day,31 equal RK4 substeps per month
+population_per_setting,100000,people,Illustrative initial size
+initial_infection_fraction,0.035,fraction,Seed before fixed-duration initialization
+initialization_years,14,years,Alternatives28 and56
+reference_followup_years,10,years,Alternatives5 and20
+vaccine_ages,6;7;9;24,completed months,Scheduled events; no catch-up
+delivered_dose_costs,9.01;9.01;9.01;9.71,2020 US$/dose,Baral2023 Table4; includes acquisition-price assumption5
+procurement_adjustment_factor,1.076,multiplier,Costing assumption carried from manuscript
+usable_dose_fraction,0.9,fraction,Costing assumption carried from manuscript
+invader_initial_immatures,3000,vectors,Initial urban invader seed
+invader_initial_susceptible_adults,4500,vectors,Initial urban invader seed
+older_child_ageing_period,3652.5,days,10*365.25
+reference_target,0.038;0.010,fraction,KMIS2020 under-five all-species microscopy targets before species conversion
+reference_species_fractions,0.959;0.933,fraction,KMIS2020 broader-age P.falciparum-inclusive fractions transferred to under-fives
+lake_target,0.105,fraction,KMIS2020 TableB.6; before species conversion
+lake_species_fraction,0.955,fraction,KMIS2020 Table4.9
+lake_care_proxy,0.567,fraction,KMIS2020 Table4.1
+benchmark_relative_incidence,30,ratio,Transported scenario benchmark; not a Kenyan fitted observation
+global_design_size,128,points,Fixed Latin-hypercube design
+bootstrap_resamples,500,resamples per endpoint,Fixed one-based bootstrap tables
+design_seed,20261119,integer,Original sampling-design seed

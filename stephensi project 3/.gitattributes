@@ -1,0 +1,9 @@
+*.R text eol=lf
+*.md text eol=lf
+*.csv -text
+*.txt text eol=lf
+*.Rproj text eol=lf
+*.rds -text
+*.gz -text
+*.png -text
+*.pdf -text

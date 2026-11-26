@@ -1,0 +1,6 @@
+Status: completed
+Mode: reference
+R: R version 4.5.0 (2025-04-11)
+Started: 2026-11-25 12:48:32.814054
+Finished: 2026-11-25 12:51:52.458457
+Elapsed seconds: 199.64

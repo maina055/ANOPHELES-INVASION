@@ -1,0 +1,32 @@
+parameter,value,input_file,unit,basis,meaning,source_and_limit
+dens_r,0.05152166824481456,config.csv,adult vectors per initial human,calibration starting value,Native density seed in first population,Fitted to the specified KMIS2020 prevalence target; not an observed density.
+dens_u,0.08751590075840943,config.csv,adult vectors per initial human,calibration starting value,Native density seed in urban population,Fitted to the specified KMIS2020 prevalence target; not an observed density.
+steph_density,0.7,config.csv,adult vectors per initial human,scenario assumption,Invader density parameter used to calculate carrying capacity,Reference 0.7 is not a field estimate; range 0.2-1.2 in main density analysis.
+infection_block,1.0,config.csv,multiplier,scenario setting,Multiplier applied to vaccine acquisition protection,Reference 1; sensitivity 0.75-1.25.
+steph_bite_multiplier,1.0,config.csv,multiplier,scenario setting,Multiplier of invader biting rates,Reference 1; global sensitivity 0.7-1.3.
+adult_mortality_mult,1.0,config.csv,multiplier,scenario setting,Multiplier of urban invader adult mortality,Reference 1; global sensitivity 0.75-1.25. Carrying capacity is based on the unmodified mortality parameter.
+clinical_mult,1.0,config.csv,multiplier,scenario setting,Multiplier of clinical probability after infection onset,Reference 1. Probability bounds are checked.
+severity_mult,1.0,config.csv,multiplier,scenario setting,Multiplier of severe probability conditional on clinical disease,Reference 1; sensitivity 0.5/1.5.
+fatality_mult,1.0,config.csv,multiplier,scenario setting,Multiplier of fatality probability conditional on severe disease,Reference 1; sensitivity 0.5/1.5.
+cost_mult,1.0,config.csv,multiplier,scenario setting,Multiplier of treatment and additional control costs,Reference 1. It does not multiply vaccine cost; vaccine prices have a separate sensitivity.
+discount,0.03,config.csv,annual fraction,economic assumption,Annual discount rate for costs and health,Reference 0.03; alternatives 0 and 0.05. Event and remaining-life discounting are described in model_specification.md.
+price_dose,5.0,config.csv,2020 US$/acquired dose,historical costing assumption,Vaccine acquisition-price component,Baral2023 10.1016/j.vaccine.2023.01.043 Table4; not a current quotation.
+control_bite,0.7,config.csv,multiplier,hypothetical control assumption,Biting multiplier under additional invader control,Reference 0.7; jointly varied with capacity and mortality in control-effect profiles.
+control_capacity,0.6,config.csv,multiplier,hypothetical control assumption,Carrying-capacity multiplier under additional invader control,Reference 0.6; not an operationally measured effect.
+control_mortality,1.3,config.csv,multiplier,hypothetical control assumption,Adult-mortality multiplier under additional invader control,Reference 1.3; not an operationally measured effect.
+control_cost,1.5,config.csv,2020 US$/urban resident-year,hypothetical cost assumption,Additional control cost charged to the urban population,Reference 1.5; boundaries derived across explicit control-effect profiles.
+mitigation,0.0,config.csv,binary switch,scenario setting,Enable additional urban invader control,Scenarios E and F.
+steph,0.0,config.csv,binary switch,scenario setting,Enable urban invader establishment,Scenarios C-F. Rural invader remains absent.
+vacc,0.0,config.csv,binary switch,scenario setting,Enable vaccination and dose/protection structure,"Scenarios B, D and F."
+migrate,0.0,config.csv,binary switch fixed at zero,unused reference setting,No migration term is implemented,Input validation requires zero. Populations are independent.
+treated,1.0,extension_config.csv,binary switch,structural setting,Enable treatment routing,Reference 1; set to zero only for nesting the earlier model in regression checks.
+care_r,0.653,extension_config.csv,probability,transferred proxy,Care seeking for uncomplicated episodes in first population,KMIS2020 Table4.1 under-five fever-care proxy; transfer to all ages and effective malaria care is assumed.
+care_u,0.603,extension_config.csv,probability,transferred proxy,Care seeking for uncomplicated episodes in urban population,KMIS2020 Table4.1 under-five fever-care proxy; transfer to all ages and effective malaria care is assumed.
+txdays,5.0,extension_config.csv,days,transferred model parameter,Mean treated-infection duration,Watson2017 10.7554/eLife.25008 Table2; five days.
+delay,2.0,extension_config.csv,days,assumption,Mean waiting time before treatment,Two days; alternatives zero and four. Not estimated from KMIS timely-care proportion.
+txinfect,0.32205882352941173,extension_config.csv,relative infectiousness,transferred ratio,Infectiousness of T relative to I and W,Watson2017 10.7554/eLife.25008 Table2; 0.0219/0.068.
+rsus,0.0,extension_config.csv,relative susceptibility,structural assumption,Susceptibility to infection while recovered,Reference 0; alternatives 0.5 and 1.
+early1,0.0,extension_config.csv,fraction blocked,structural assumption,Acquisition protection after dose1 in protected components,Reference 0; alternatives 0.1 or 0.2; not directly estimated from Juraska2024.
+early2,0.0,extension_config.csv,fraction blocked,structural assumption,Acquisition protection after dose2 in protected components,Reference 0; alternatives 0.2 or 0.4; not directly estimated from Juraska2024.
+admit,1.0,extension_config.csv,probability,structural assumption,Hospital admission conditional on severe episode,Reference 1; alternative 0.5. Reference hospitalisations therefore equal severe episodes.
+unfatal,1.0,extension_config.csv,relative fatality,structural assumption,Fatality multiplier for non-admitted severe episodes,Reference 1; value2 accompanies admission probability0.5.

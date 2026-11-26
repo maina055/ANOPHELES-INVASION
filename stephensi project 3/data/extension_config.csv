@@ -1,0 +1,12 @@
+parameter,value
+treated,1.0
+care_r,0.653
+care_u,0.603
+txdays,5.0
+delay,2.0
+txinfect,0.32205882352941173
+rsus,0.0
+early1,0.0
+early2,0.0
+admit,1.0
+unfatal,1.0

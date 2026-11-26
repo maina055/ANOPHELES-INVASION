@@ -1,0 +1,24 @@
+item,function,output,scope
+Main Table 1,export_manuscript_tables,results/tables/Main_Table_1.csv,Intervention definitions
+Main Table 2,summary_state; export_manuscript_tables,results/tables/Main_Table_2.csv,Both populations; ages 6-59 months
+Main Table 3,contrasts; export_manuscript_tables,results/tables/Main_Table_3.csv,Vaccination benefits; ages 6-59 months
+Main Table 4,contrasts; export_manuscript_tables,results/tables/Main_Table_4.csv,All-age incremental costs and DALYs
+Tables S1-S3,load_inputs,data/parameters.csv; data/config.csv; data/extension_config.csv; docs/parameter_register.csv,Fixed parameters and provenance
+Table S4,calibrate; export_manuscript_tables,results/tables/Table_S4.csv,Fitted and broader-age prevalence
+Table S5,contrasts; export_manuscript_tables,results/tables/Table_S5.csv,Benefits at ages 6-23 and 24-59 months
+Table S6,run_variant; export_manuscript_tables,results/tables/Table_S6.csv,Dose-specific administrations and completed courses
+Table S7,structural_job; extra_job; benchmark_analyses,results/tables/Table_S7.csv,Structural sensitivity comparisons
+Table S8,extra_job; economic_analyses,results/tables/Table_S8.csv,Biological and economic sensitivity comparisons
+Table S9,control_boundaries,results/tables/Table_S9.csv,Control cost-effect boundaries
+Table S10,verify_model,results/tables/Table_S10.csv,All 78 numerical checks
+Selected narrative results,export_manuscript_tables,results/tables/Narrative_results.csv,Result values linked to text
+Figure 1,make_figures,results/figures/schematic.pdf; results/figures/schematic.png,Human infection pathways
+Figure 2,trajectory_table; make_figures,results/figures/trajectories.pdf; results/figures/trajectories.png,Reference prevalence and cumulative benefit
+Figure 3,density_job; make_figures,results/figures/density.pdf; results/figures/density.png,Density-dependent vaccination benefit and ICER
+Figure 4,aggregate_results; make_figures,results/figures/frontier.pdf; results/figures/frontier.png,Incremental efficiency frontier
+Figure S1,calibrate; make_figures,results/figures/calibration.pdf; results/figures/calibration.png,Calibration and same-survey age patterns
+Figure S2,global_analysis; make_figures,results/figures/prcc.pdf; results/figures/prcc.png,Four-input sensitivity associations
+Numerical verification,verify_model,results/verification.csv,Numerical consistency
+Output accounting,verify_output_integrity,results/output_integrity.csv,Bounds and accounting identities
+Manuscript precision,compare_reported_values,results/reported_value_comparison.csv,264 reported numeric entries
+Whole-trajectory population accounting,tests/check_state_balance.R,results/population_balance_checks.csv,"Births, natural deaths and malaria deaths over each saved intervention trajectory"

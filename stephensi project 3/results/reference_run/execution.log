@@ -1,0 +1,9 @@
+Reference calibration and intervention scenarios
+Calibrated reference; maximum prevalence error = 6.7e-14
+Completed reference
+Numerical verification
+Passed 78 numerical checks
+Passed 18 output-integrity checks
+Passed 43 output comparisons with the manuscript calculations
+Passed 87 manuscript reporting-precision comparisons
+Analysis completed: /workspace/scratch/dddfa02e7120/project3_work/stephensi project 3/results/reference_run

@@ -1,0 +1,9 @@
+Input integrity audit passed.
+Output and resumption safeguards passed.
+Comparison completeness safeguards passed.
+Passed 18 output-integrity checks
+Passed 43 output comparisons with the manuscript calculations
+Passed 87 manuscript reporting-precision comparisons
+Completed-run checks passed.
+Whole-trajectory population balance passed for 6 saved states.
+All completed-analysis checks passed.
